@@ -1,6 +1,5 @@
 from setuptools import setup
 
-
 setup(
     name='si_crowd_nav',
     version='0.0.1',
@@ -9,6 +8,8 @@ setup(
         'sicnav',
         'sicnav.policy',
         'sicnav.utils',
+        'sicnav.utils.mpc_utils',
+        'sicnav.utils.PythonRobotics',
         'sicnav.configs',
         'crowd_sim_plus',
         'crowd_sim_plus.envs',
