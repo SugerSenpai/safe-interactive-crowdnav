@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='si_crowd_nav',
+    name='sicnav',
     version='0.0.1',
     python_requires='==3.8.13',
     packages=[
@@ -17,6 +17,11 @@ setup(
         'crowd_sim_plus.envs.utils',
         'RL_nav'
     ],
+    package_data={
+        'sicnav': [
+            'configs/*.config'
+        ]
+    },
     install_requires=[
         'setuptools==65.5.0',
         'pip==21',
